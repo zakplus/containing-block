@@ -1,8 +1,12 @@
 {
   "name": "containing-block",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility function which find the containing block of a DOM element.",
-  "main": "dist/cb-min.js",
+  "main": "lib/cb.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/zakplus/containing-block.git"
+  },
   "scripts": {
     "build": "webpack"
   },
