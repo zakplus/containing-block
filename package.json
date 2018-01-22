@@ -1,0 +1,34 @@
+{
+  "name": "containing-block",
+  "version": "1.0.0",
+  "description": "A utility function which find the containing block of a DOM element.",
+  "main": "dist/cb-min.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [
+    "block",
+    "container",
+    "container",
+    "CSS",
+    "DOM"
+  ],
+  "author": {
+    "name": "Valerio Bianchi",
+    "email": "contacts@valeriobianchi.com",
+    "url": "https://valeriobianchi.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "clone-deep": "^3.0.1",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "webpack": "^3.10.0"
+  }
+}
